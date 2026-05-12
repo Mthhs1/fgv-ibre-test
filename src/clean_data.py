@@ -42,8 +42,7 @@ def main():
             
         log(f"----Notícia processada: {noticia['id']}----\n\n\n", log_file)
             
-            
-            
+        
     log("Escrevendo arquivo de notícias limpas\n\n\n", log_file,True)
     with open("./dados/noticias_limpa.json", "w", encoding="utf-8") as f:
         json.dump(noticias_validas, f, ensure_ascii=False, indent=4)
