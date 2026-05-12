@@ -3,6 +3,7 @@ from sentence_transformers import SentenceTransformer
 import torch
 
 
+
 def main():
     embedder = SentenceTransformer('sentence-transformers/paraphrase-multilingual-mpnet-base-v2')
     
