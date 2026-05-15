@@ -36,7 +36,7 @@ def main(mode, model, top=5, diff=False):
     return
 
 def get_title_by_id(id):
-    with open("./dados/noticias_limpa.json", "r", encoding="utf-8") as f:
+    with open("./dados/noticias_limpas.json", "r", encoding="utf-8") as f:
         data = json.load(f)
     
     for item in data:

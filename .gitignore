@@ -2,5 +2,6 @@
 venv/*
 src/__pycache__/*
 dados/noticias_limpa.json
+dados/noticias_limpas.json
 results/result.json
 logs/*
